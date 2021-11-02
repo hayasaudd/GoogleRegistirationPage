@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GoogleRegistirationPage</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="username">Username</string>
+    <string name="use_8_more_characters_with_a_mix_of_letters_numbers_and_symbols">Use 8 more characters with a mix of letters, numbers and symbols</string>
+    <string name="show_password">Show password</string>
+    <string name="sign_in_instead">Sign in instead</string>
+    <string name="next">Next</string>
+    <string name="confirm">Confirm</string>
+    <string name="password">Password</string>
+    <string name="use_my_current_email_address_instead">Use my current email address instead</string>
+    <string name="you_can_use_letters_numbers_and_periods">You can use letters, numbers and periods</string>
+    <string name="create_you_google_account">Create you Google Account</string>
+</resources>
