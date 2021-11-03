@@ -53,9 +53,9 @@
         style="@style/Widget.MyStyle.TextView">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="185dp"
+            android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:background="#00FFFFFF"
+
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -78,7 +78,6 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="184dp"
             android:layout_height="48dp"
-            android:background="#00FFFFFF"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -95,9 +94,8 @@
         style="@style/Widget.MyStyle.TextView">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="386dp"
-            android:layout_height="54dp"
-            android:background="#00FFFFFF"
+            android:layout_width="377dp"
+            android:layout_height="48dp"
             android:hint="@string/username"
             app:layout_constraintTop_toBottomOf="@+id/firstname" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -131,37 +129,35 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
+        style="@style/Widget.MyStyle.TextView"
         android:layout_width="184dp"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        style="@style/Widget.MyStyle.TextView">
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textInputEditText"
             android:layout_width="183dp"
             android:layout_height="48dp"
-            android:background="#00FFFFFF"
             android:hint="@string/password" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout3"
+        style="@style/Widget.MyStyle.TextView"
         android:layout_width="183dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toEndOf="@+id/textInputLayout2"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        style="@style/Widget.MyStyle.TextView">
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="179dp"
             android:layout_height="46dp"
-            android:background="#00FFFFFF"
             android:hint="@string/confirm" />
     </com.google.android.material.textfield.TextInputLayout>
 

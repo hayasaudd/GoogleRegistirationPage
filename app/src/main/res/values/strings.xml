@@ -12,4 +12,5 @@
     <string name="use_my_current_email_address_instead">Use my current email address instead</string>
     <string name="you_can_use_letters_numbers_and_periods">You can use letters, numbers and periods</string>
     <string name="create_you_google_account">Create you Google Account</string>
+    <string name="gmail_com">/@gmail.com</string>
 </resources>
